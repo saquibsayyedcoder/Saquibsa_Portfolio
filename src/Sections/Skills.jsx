@@ -2,7 +2,7 @@ import React from 'react'
 
 function Skills() {
   return (
-    <div name='Skills' id="about" className=" px-10 dark:bg-white bg-gradient-to-r from-orange-300 to-pink-300">
+    <div name='Skills' id="about" className=" px-10 dark:bg-white bg-gradient-to-r ">
     <div
       className="container mx-auto  flex flex-col-reverse lg:flex-row items-center gap-20"
     >
@@ -33,6 +33,14 @@ function Skills() {
         <div classn="w-full bg-gray-900 h-1.5 rounded-md">
           <div className="w-full bg-indigo-600 h-1.5 rounded-md"></div>
         </div>
+        <h2 className="text-gray-900 font-medium">CSS</h2>
+        <div classn="w-full bg-gray-900 h-1.5 rounded-md">
+          <div className="w-3/4 bg-indigo-600 h-1.5 rounded-md"></div>
+        </div>
+        <h2 className="text-gray-900 font-medium">Tailwind CSS</h2>
+        <div className="w-full bg-gray-200 h-1.5 rounded-md">
+          <div className="w-4/6 bg-indigo-600 h-1.5 rounded-md"></div>
+        </div>
         <h2 className="text-gray-900 font-medium">Javascript</h2>
         <div className="w-full bg-gray-200 h-1.5 rounded-md">
           <div className="w-4/6 bg-indigo-600 h-1.5 rounded-md"></div>
@@ -40,6 +48,10 @@ function Skills() {
         <h2 className="text-gray-900 font-medium">React</h2>
         <div className="w-full bg-gray-200 h-1.5 rounded-md">
         <div className="w-5/6 bg-indigo-600 h-1.5 rounded-md"></div>
+        </div>
+        <h2 className="text-gray-900 font-medium">Postgre SQL</h2>
+        <div className="w-full bg-gray-200 h-1.5 rounded-md">
+        <div className="w-3/5 bg-indigo-600 h-1.5 rounded-md"></div>
         </div>
       </div>
     </div>

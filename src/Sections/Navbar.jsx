@@ -38,9 +38,9 @@ const Navbar = () => {
 
   return (
     <>
-    <div className='bg-gradient-to-r from-orange-300 to-pink-300 '>
-    <div className='bg-gradient-to-r from-orange-300 to-pink-300'>
-    <div className='bg-gradient-to-r from-orange-300 to-pink-300'>
+    <div className=' '>
+    <div className=''>
+    <div className=''>
     <div className=' block pt-6 block w-full max-w-screen-lg px-4 py-2 mx-auto bg-opacity-90 sticky  top-3 p-6 bg-gradient-to-r from-pink-500 to-orange-500 ... flex justify-between items-center h-24 max-w-[1240px] mx-auto px-4 text-white '>
       {/* Logo */}
       <h1 className='w-full text-3xl font-bold text-[#000]'>SAQUIB.</h1>
@@ -64,7 +64,7 @@ const Navbar = () => {
       </ul>
 
       {/* Mobile Navigation Icon */}
-      <div onClick={handleNav} className='block md:hidden'>
+      <div onClick={handleNav} className='block md:hidden cursor-pointer'>
         {nav ? <AiOutlineClose size={20} /> : <AiOutlineMenu size={20} />}
       </div>
 

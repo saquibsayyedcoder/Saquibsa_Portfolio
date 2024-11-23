@@ -22,11 +22,11 @@ function Footer() {
       <h1 className='flex justify-between gap-5 font-bold mb-3'>Contact Us</h1>
       <div className='font-bold '>
       < FaLocationDot/>
-      <span>Ashok Chowk, Solapur, Maharashtra-413005</span><br />
+      <span  className='hover:text-blue-400 cursor-pointer'>Ashok Chowk, Solapur, Maharashtra-413005</span><br />
       < IoIosCall />
-      <span>+123 45678909</span><br />
+      <span  className='hover:text-blue-400 cursor-pointer'>+123 45678909</span><br />
       <IoIosMail/>
-      <span>saquibsayyed12345@gmail.com</span><br />
+      <span className='hover:text-blue-400 cursor-pointer'>saquibsayyed12345@gmail.com</span><br />
       </div>
       
      

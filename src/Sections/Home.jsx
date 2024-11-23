@@ -13,8 +13,8 @@ import pic from '../../src/img/saqib.jpeg'
 function Home(){
     return(
         <>
-        <div name="Home" 
-    className='max-w-screen-2xl container mx-auto px-4 md:px-20  my-20'>
+        <div name="Home" id="home"
+    className='max-w-screen-2xl container mx-auto px-4 md:px-20  my-20 from-orange-300 to-pink-300'>
        <div className='flex flex-col md:flex-row'>
         <div className='md:w-1/2 mt-12 md:mt-24 space-y-2 order-2 md:order-1'>
             <span className='text-xl hover:text-sky-400'>Hey I'm Saqib Sayyed</span>
@@ -42,22 +42,22 @@ function Home(){
               <ul className='flex space-x-5 '>
               <li>
               <a href="https://www.facebook.com" target='blank'>
-              <FaFacebook className='text-2xl cursor-pointer '/>
+              <FaFacebook className='text-2xl cursor-pointer hover:text-lime-400 '/>
               </a>
               </li>
               <li>
                 <a href="https://www.linkedin.com/in/saquib-arif-sayyed-62b88b1a1?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target='blank'>
-                <FaLinkedin className='text-2xl cursor-pointer '/> 
+                <FaLinkedin className='text-2xl cursor-pointer hover:text-lime-400 '/> 
                 </a>
               </li>
               <li>
               <a href="https://www.youtube.com" target='blank'>
-              <FaYoutube className='text-2xl cursor-pointer '/> 
+              <FaYoutube className='text-2xl cursor-pointer hover:text-lime-400 '/> 
               </a>
               </li>
               <li>
               <a href="https://web.telegram.org/" target='blank'>
-              <FaInstagram className='text-2xl cursor-pointer '/> 
+              <FaInstagram className='text-2xl cursor-pointer hover:text-lime-400 '/> 
               </a>
               </li>
               </ul>
@@ -65,10 +65,10 @@ function Home(){
             <div className='space-y-2'>
               <h1 className='font-bold'>Currently Working On</h1>
               <div className='flex space-x-5'>
-              <IoLogoJavascript className='text-xl md:text-3xl hover:scale-110 duration-200 rounded-full border-[2px]'/> 
-              <RiTailwindCssFill className='text-xl md:text-3xl hover:scale-110 duration-200 rounded-full border-[2px]'/>
-              <RiReactjsLine className='text-xl md:text-3xl hover:scale-110 duration-200 rounded-full border-[2px]'/>
-              <BiLogoPostgresql className='text-xl md:text-3xl hover:scale-110 duration-200 rounded-full border-[2px]'/>
+              <IoLogoJavascript className='text-xl md:text-3xl hover:scale-110 duration-200 rounded-full border-[2px] hover:text-lime-400'/> 
+              <RiTailwindCssFill className='text-xl md:text-3xl hover:scale-110 duration-200 rounded-full border-[2px] hover:text-lime-400'/>
+              <RiReactjsLine className='text-xl md:text-3xl hover:scale-110 duration-200 rounded-full border-[2px] hover:text-lime-400'/>
+              <BiLogoPostgresql className='text-xl md:text-3xl hover:scale-110 duration-200 rounded-full border-[2px] hover:text-lime-400'/>
         
               </div>
 

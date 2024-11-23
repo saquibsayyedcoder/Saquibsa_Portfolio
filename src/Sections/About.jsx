@@ -4,15 +4,15 @@ import React from "react";
 const About = () => {
   return (
     
-    <section name='About' className="pr-4 bg-secondery text-black px-20 bg-gradient-to-r from-orange-300 to-pink-300" id="about">
+    <section name='About' className="pr-4 bg-secondery text-black px-20 bg-gradient-to-r " id="about">
       <div  className="container mx-auto grid md:grid-cols-2 items-center justify-center md:justify-between">
         <div className="about-info">
-          <h1 className="p-6 text-violet-500 font-bold mb-5 border-b-[5px] w-[180px] border-indigo-600 pb-2">
+          <h1 className="ml-8 text-violet-500 font-bold mb-5 border-b-[5px] w-[180px] border-indigo-600 pb-2">
            ABOUT ME
           </h1>
-          <h1 className="pr-10 text-3xl font-medium">Better Know Me</h1>
+          <h1 className="ml-8 text-3xl font-medium">Better Know Me</h1>
 
-          <p className="p-6 pr-10">
+          <p className="ml-8 mb-5">
             Hi, My Name Is Saqib Sayyed. I am a
             Frontend Developer. I build beautifull websites with React and
             Tailwind CSS.
@@ -21,6 +21,9 @@ const About = () => {
             In backend I know Node.js, Express.js, MongoDB, and Mongoose
             In my spare time I create YouTube videos and write blogs on my Blog.
             Where I talk about programming theory and build various projects.
+            Beyond technical skills, my creativity shines through in my ability to think outside the box and innovate. Whether it’s through interactive animations, seamless transitions, or engaging user interactions, I aim to create experiences that leave a lasting impression. My journey as a Front-End Developer is driven by a relentless passion for creating beautiful, functional, and user-centered web applications.
+
+Feel free to adjust or expand on this to better match your personal experiences and style! If there's anything else you'd like to highlight or any specific details you'd like to include, just let me know.
           </p>
         </div>
 
